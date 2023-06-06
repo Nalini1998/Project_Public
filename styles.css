@@ -1,0 +1,66 @@
+div {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.background {
+	position: absolute;
+	margin-top: 80px;
+	width: 95%;
+	z-index: 1
+}
+
+#fact {
+	display: flex;
+	justify-content: center;
+  position: fixed;
+	margin-top: 140px;
+	width: 90%;
+	font-size: 2.7vw;
+	z-index: 3;
+  color: #00000;
+  background-color: #B0E0E6;
+  font-weight: bold;
+}
+
+.animals {
+	display: flex;
+	flex-direction: row;
+	position: fixed;
+	width: 80%;
+	margin-top: 260px;
+	z-index: 2
+}
+
+.animal {
+	width: 33.3%;
+}
+
+@media only screen and (max-width: 670px) {
+	.animals {
+		margin-top: 180px;
+	}
+
+  h1 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+	.animals {
+		margin-top: 150px;
+	}
+}
+
+@media only screen and (max-width: 300px) {
+	.animals {
+		margin-top: 130px;
+	}
+}
+
+@media only screen and (max-width: 200px) {
+	.animals {
+		margin-top: 120px;
+	}
+}
