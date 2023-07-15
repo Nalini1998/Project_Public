@@ -1,0 +1,31 @@
+.header {
+  /* align the text in the center */
+  text-align: left;
+  /* make its background color CornflowerBlue */
+  background-color: CornflowerBlue;
+}
+
+
+
+.about-me {
+  /* select the .about-me element, and set its font-size */
+  font-size: 20px;
+  /* use the opacity property to make it 50% transparent */
+  opacity: 0.5;
+}
+
+//   /* add a font-weight property to make their text bold */
+.title {
+  font-weight: bold;
+}
+
+// Set the color for h1 elements to Azure
+h1 {
+  color: Azure;
+}
+
+// make the font-family of the page Georgia
+body {
+  font-family: Georgia;
+  background-image: url('https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png');
+}
